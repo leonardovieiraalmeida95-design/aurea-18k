@@ -1,0 +1,4 @@
+{
+  "name": "aurea-18k", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs", "check": "node --check dist/app.js && node scripts/check.mjs", "build": "node scripts/check.mjs", "preview": "node scripts/serve.mjs", "package": "node scripts/package.mjs"}
+}
